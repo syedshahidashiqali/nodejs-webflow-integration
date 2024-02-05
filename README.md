@@ -7,8 +7,8 @@
 
 #### Steps:
 ```
-1. docker pull syedshahidashiqali/ionos-api-server
-2. docker run -p 5000:5000 --name any-container-name syedshahidashiqali/ionos-api-server:latest
+1. docker pull syedshahidashiqali/nodejs-webflow-integration
+2. docker run -p 5000:5000 --name any-container-name syedshahidashiqali/nodejs-webflow-integration:latest
 ```
 
 ### LIVE URL
