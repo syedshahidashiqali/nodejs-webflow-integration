@@ -141,7 +141,7 @@ const deleteUnwantedItemsFromWebflow = async (mongoIds) => {
 
     // Extract IDs of items in Webflow CMS
     const webflowIds = webflowItems
-      .filter((item) => mongoIds.includes(item.fieldData.slug))
+      .filter((item) => !mongoIds.includes(item.fieldData.slug))
       .map((item1) => item1?.fieldData.slug);
 
     logger.info(
